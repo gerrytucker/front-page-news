@@ -1,3 +1,19 @@
+@font-face {
+	font-family: 'front-page-news';
+	src:url('../fonts/front-page-news.eot');
+	src:url('../fonts/front-page-news.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/front-page-news.woff') format('woff'),
+		url('../fonts/front-page-news.ttf') format('truetype'),
+		url('../fonts/front-page-news.svg#front-page-news') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#adminmenu .menu-icon-post div.wp-menu-image:before {
+	font-family: 'front-page-news';
+	content: '\e600';
+}
+
 .wrap,
 .wrap a {
 	-webkit-font-smoothing: antialiased !important;
