@@ -1,11 +1,12 @@
 <?php
 /*
 Plugin Name: Front Page News
-Plugin URI: http://gerrytucker.co.uk/wordpress/plugins/tmpco/front-page-news
+Plugin URI: https://github.com/gerrytucker/front-page-news
 Description: This plugin allows the The Mayfair Printing Co. to create posts for the frontpage news accordion and select and order those posts using a drag'n'drop interface.
 Author: Gerry Tucker
-Version: 1.0
 Author URI: http://gerrytucker.co.uk/
+Version: 1.1
+GitHub Plugin URI: https://github.com/gerrytucker/front-page-news
 */
 register_activation_hook(__FILE__, 'fpn_activation');
 function fpn_activation()
