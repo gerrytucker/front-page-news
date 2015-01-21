@@ -5,7 +5,7 @@ Plugin URI: https://github.com/gerrytucker/front-page-news
 Description: This plugin allows the The Mayfair Printing Co. to create posts for the frontpage news accordion and select and order those posts using a drag'n'drop interface.
 Author: Gerry Tucker
 Author URI: http://gerrytucker.co.uk/
-Version: 1.2
+Version: 1.3
 GitHub Plugin URI: https://github.com/gerrytucker/front-page-news
 */
 register_activation_hook(__FILE__, 'fpn_activation');
